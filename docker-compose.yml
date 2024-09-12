@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '3000:3000' # Next.js default port
+      - '6006:6006' # Storybook default port
+    volumes:
+      - .:/app
+    environment:
+      NODE_ENV: development

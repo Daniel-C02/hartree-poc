@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -39,4 +41,22 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.ff-sans {
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.fs-32 { font-size: 32px !important; }
+.fs-16 { font-size: 16px !important; }
+.fs-14 { font-size: 14px !important; }
+
+.fw-600 { font-weight: 600 !important; }
+.fw-500 { font-weight: 500 !important; }
+.fw-400 { font-weight: 400 !important; }
+
+.text-cyan-light {
+  color: #DFEDFA !important;
 }
